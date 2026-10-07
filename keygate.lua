@@ -2,7 +2,7 @@
 local KEY = "@/ Anoma"
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "AnomaKeyGate"
+ScreenGui.Name = "Cicada-KeyGate"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = game.CoreGui
 
