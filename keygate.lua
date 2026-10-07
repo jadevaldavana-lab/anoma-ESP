@@ -1,7 +1,8 @@
+--// Anoma ESP — key gate
 local KEY = "@/ Anoma"
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "KeyPrompt"
+ScreenGui.Name = "AnomaKeyGate"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = game.CoreGui
 
@@ -27,7 +28,7 @@ local TitleLbl = Instance.new("TextLabel")
 TitleLbl.Size = UDim2.new(1, -20, 0, 28)
 TitleLbl.Position = UDim2.new(0, 10, 0, 6)
 TitleLbl.BackgroundTransparency = 1
-TitleLbl.Text = "@/CICADA AIMBOT"
+TitleLbl.Text = "@/Anoma ESP"
 TitleLbl.Font = Enum.Font.GothamBold
 TitleLbl.TextSize = 15
 TitleLbl.TextColor3 = Color3.fromRGB(255, 255, 255)
